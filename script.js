@@ -1,6 +1,5 @@
 function gerar() {
     var num = document.querySelector('#num').value
-    var inputNum = document.querySelector('#num')
     corpoTbl = document.querySelector('#corpoTbl')
    
     if (num == "") {
