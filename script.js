@@ -9,7 +9,6 @@ function gerar() {
         corpoTbl.innerHTML = ""
         for (var m = 0; m <= 10; m++) {        
             trRecebeTd = document.createElement('tr')
-            trRecebeTd.setAttribute('class', 'teste')
             tdNumTab = document.createElement('td')
             corpoTbl.appendChild(trRecebeTd)
             trRecebeTd.appendChild(tdNumTab)
